@@ -1,23 +1,22 @@
 {
     "maxlen" : 100,
     "maxwords" : 10000,
-    "dictionary" : "dictionary.json",
-    "model" : "model.json",
-    "model_weights" : "model_weights.h5",
-    "target_name_dict" : { "astro-ph.GA" : 0,
-                        "astro-ph.SR" : 1,
-                        "astro-ph.IM" : 2,
-                        "astro-ph.EP" : 3,
-                        "astro-ph.HE" : 4,
-                        "astro-ph.CO" : 5
+    "dictionary" : "dictionary_ML.json",
+    "model" : "model_ML.json",
+    "model_weights" : "model_ML.h5",
+    "target_name_dict" : { "stat.AP" : 0,
+                        "stat.CO" : 1,
+                        "stat.ME" : 2,
+                        "stat.ML" : 3,
+                        "stat.OT" : 4
                     },
     "target_fullname_dict" : {
-        "GA: Astrophysics of Galaxies" : 0,
-        "SR: Solar and Stellar Astrophysics" : 1,
-        "IM: Instrumentation and Methods for Astrophysics" : 2,
-        "EP: Earth and Planetary Astrophysics" : 3,
-        "HE: High Energy Astrophysical Phenomena" : 4,
-        "CO: Cosmology and Nongalactic Astrophysics" : 5
+        "AP: Statistics Applications" : 0,
+        "CO: Statistics Computation" : 1,
+        "ME: Statistics Methodology" : 2,
+        "ML: Statistics sMachine Learning " : 3,
+        "OT: Other Statistics" : 4
     },
-    "s3_bucket_name" : "ml-bucket-3"
+    "s3_bucket_name" : "ml-bucket-1"
 }
+

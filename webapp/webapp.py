@@ -19,7 +19,7 @@ def main():
    timeString = now.strftime("%Y-%m-%d %H:%M")
    cpuCount = os.cpu_count()
    templateData = {
-      'title' : 'Web App for classifying abstracts on astro-ph',
+      'title' : 'Web App for classifying abstracts on statistics',
       'time': timeString,
       'cpucount' : cpuCount,
       'tfversion' : tf.__version__
