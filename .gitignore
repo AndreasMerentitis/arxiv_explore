@@ -12,3 +12,6 @@ exploration/glove.6B/
 
 #
 venv/
+
+# *.h5
+*.h5
