@@ -18,6 +18,13 @@ files = ["data/2014astroph_p.h5",
          "data/2017astroph_p.h5",
         ]
 
+files = ["data/2014astroph_p.h5",
+         "data/2015astroph_p.h5",
+         "data/2016astroph_p.h5",
+         "data/2017astroph_p.h5",
+        ]
+
+
 abstracts = []
 labels = []
 for f in files:
