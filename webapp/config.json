@@ -14,7 +14,7 @@
         "AP: Statistics Applications" : 0,
         "CO: Statistics Computation" : 1,
         "ME: Statistics Methodology" : 2,
-        "ML: Statistics sMachine Learning " : 3,
+        "ML: Statistics Machine Learning " : 3,
         "OT: Other Statistics" : 4
     },
     "s3_bucket_name" : "ml-bucket-1"

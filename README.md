@@ -1,8 +1,15 @@
-# Exploration of astroph dataset
+# Exploration of arxiv datasets
 
 ## Data
-The data are collected by *arxiv_collector*
+The data are collected by *arxiv_collector*.
+Place the downloaded files in the data folder
+so that they can be found by the training script. 
 
+## Exploration and training 
+For exploration of the data, you can use the 
+*test_embedding_2.ipynb* script which is updated
+to use Tensorflow 1.15. After this step you can
+also train the final model using *train_data.py*
 
 ## Deployment
 
