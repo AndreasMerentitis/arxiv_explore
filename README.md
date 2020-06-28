@@ -56,5 +56,18 @@ We use `zappa` to deploy the package on the `Amazon Lambda`. We first run `zappa
 Note that we have added the last three options: `slim_handler`, `use_precompiled_packages`, and `memory_size`.
 
 
+In order to debug any error messages you can use the following command:
+```
+zappa tail
+```
+
+In order to update an existing deployment you can use the following command:
+```
+zappa update
+```
+
+# Using data and extending the basic idea from these sources:
+* https://github.com/wingkitlee0/arxiv_explore
+
 
 
