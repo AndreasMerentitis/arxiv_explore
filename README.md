@@ -68,6 +68,5 @@ zappa update
 
 # Using data and extending the basic idea from these sources:
 * https://github.com/wingkitlee0/arxiv_explore
-
-
+* https://github.com/wingkitlee0/arxiv_collector
 
