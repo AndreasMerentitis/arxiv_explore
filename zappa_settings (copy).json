@@ -7,7 +7,8 @@
         "runtime": "python3.6",
         "exclude": ["concurrent"],
         "s3_bucket": "zappa-ml-1",
-        "slim_handler": true,
+	    "slim_handler": true,
+	    "use_precompiled_packages": false,
         "memory_size": 1024
     }
 }

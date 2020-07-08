@@ -3,6 +3,7 @@ import tensorflow as tf
 import pandas
 import sys
 import json
+import h5py
 
 from tensorflow import keras
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -33,6 +34,8 @@ labels = []
 for f in files:
 
     store = pandas.HDFStore(f)
+    #import pdb
+    #pdb.set_trace()
     df = store['/df']
     store.close()
 
