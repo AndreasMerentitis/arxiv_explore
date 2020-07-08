@@ -2,19 +2,11 @@ import datetime
 import os
 import numpy as np
 
-#from webapp import app, api, db
-
-#from webapp import app
-
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 import tensorflow as tf
 from astrophpredict import AstrophPrediction
 from tensorflow.contrib.keras.api.keras import backend as K
-
-import pymysql
-pymysql.install_as_MySQLdb()
-import MySQLdb
 
 app = Flask(__name__)
 
